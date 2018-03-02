@@ -22,6 +22,8 @@
 #ifndef _GPMF_PARSER_H
 #define _GPMF_PARSER_H
 
+#include <stdint.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
