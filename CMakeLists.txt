@@ -17,7 +17,7 @@ set(lib_dest "lib")
 install(TARGETS gpmf-parser DESTINATION bin)
 install(TARGETS gpmf EXPORT gpmf DESTINATION "${lib_dest}")
 install(FILES GPMF_parser.h DESTINATION "${include_dest}")
-install(EXPORT gpmf DESTINATION lib)
+install(EXPORT gpmf DESTINATION lib/cmake/gpmf)
 
 target_include_directories(gpmf PUBLIC
     $<BUILD_INTERFACE:${gpmf-parser_SOURCE_DIR}>
